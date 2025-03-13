@@ -212,7 +212,7 @@
 <body>
     <audio id="remote-audio" autoplay></audio>
     <div class="container">
-        <h1>简易语音通话</h1>
+        <h1>简易语音通话1</h1>
 
         <div class="info">
             <div>设备ID: <span id="device-id"></span></div>
@@ -259,7 +259,7 @@
 
     <script>
         const config = {
-            wsUrl: 'ws://ybda.top/webrtc-ws',
+            wsUrl: 'wss://47.109.185.24:8080/webrtc-ws',
             roomId: 'test-room-621',
             clientId: 'web-' + Math.random().toString(36).substr(2, 8),
             iceServers: [
